@@ -1,0 +1,161 @@
+/* ********************************************************** */
+/* For HTML PAGE */
+body {
+  /*margin-top: 60px;*/
+}
+
+.entire-text {
+  padding: 60px;
+}
+
+/* ********************************************************** */
+/* Jumbotron */
+.jumbotron {
+  background-image: url("../images/nasa.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 800px;
+}
+
+.jumbotron .container h1 {
+  color: #FFFFFF;
+  padding-top: 200px;
+}
+
+
+
+
+/* ********************************************************** */
+/* Sherwynn Main Picture and Heading */
+.container-fluid img {
+  margin-top: 30px;
+}
+
+.image.img  {
+  width: 450px;
+  font-size: 80%;
+/*   text-align: center; */
+  margin: 0px auto;
+}
+
+/* ********************************************************** */
+/* Text Sections */
+.text-center h2 {
+  margin-top: 90px;
+  /*margin-bottom: 90px;*/
+}
+.text-center em h2 {
+  /*margin-top: 90px;*/
+  padding-bottom: 90px;
+}
+
+.text {
+  margin: 20px;
+}
+
+.text-background {
+  background-color: #C0BFC7;
+  border-radius: 25px;
+  /*padding: 60px;*/
+  margin: 60px;
+}
+
+h3 {
+  color: #878694;
+  padding-top: 20px;
+}
+
+
+/* ********************************************************** */
+/* Footer */
+footer {
+  background-color: #8E8D97;
+  height: 100px;
+}
+
+footer .container {
+  display: flex;
+  /*margin-top: -6rem;
+  margin-left: 50rem;*/
+  align-items: right;
+}
+
+footer img {
+  width: auto;
+  margin: 0px;
+  position: absolute;
+  right: 5px;
+  bottom: -1647px;
+  /*background-color: blue;*/
+  width:260px;
+  height:100px;
+    /*position: relative;*/
+    /*top: 10px;*/
+
+
+}
+
+footer h2 {
+/*   padding-top: 20px; */
+
+
+}
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer-social-icons {
+  width: 350px;
+  display: block;
+  padding-top: 45px;
+/*   margin: 0 auto; */
+}
+
+.social-icon {
+  color: #fff;
+}
+
+ul.socil-icons {
+  margin-top: 10px;
+}
+
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #8E8D97;
+}
+
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background-color: #8E8D97;
+}
+
+.fa-linkedin:hover {
+  background-color: #0073a4;
+}
