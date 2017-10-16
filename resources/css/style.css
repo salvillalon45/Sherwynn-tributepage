@@ -24,8 +24,20 @@ body {
   padding-top: 200px;
 }
 
+.jumbotron .container .btn-primary {
+  background-color: #878694;
+  border: #C0BFC7;
+  margin-top: 30px;
+}
 
+.jumbotron .container a {
+  color: white;
+  text-decoration: none;
+}
 
+.jumbotron .container .btn-primary:hover {
+  background-color: #C0BFC7;
+}
 
 /* ********************************************************** */
 /* Sherwynn Main Picture and Heading */
@@ -40,15 +52,19 @@ body {
   margin: 0px auto;
 }
 
+.container-fluid .text-primary h1, p {
+  color: #000000;
+}
+
 /* ********************************************************** */
 /* Text Sections */
 .text-center h2 {
   margin-top: 90px;
-  /*margin-bottom: 90px;*/
+  margin-bottom: 70px;
 }
 .text-center em h2 {
   /*margin-top: 90px;*/
-  padding-bottom: 90px;
+  padding-bottom: 20px;
 }
 
 .text {
